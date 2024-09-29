@@ -1,0 +1,336 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
+<title>GlobeNets</title>
+<link rel="stylesheet" href="css/reset.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+<script>
+  (function(d) {
+    var config = {
+      kitId: 'qfd5img',
+      scriptTimeout: 3000,
+      async: true
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+</script>
+<link rel="stylesheet" href="slick/slick.css">
+<link rel="stylesheet" href="slick/slick-theme.css">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/script.js"></script>
+</head>
+
+<body>
+  <header>
+    <section class="mv">
+      <div class="head_top">
+        <img src="./Images/logo-wh_s.png" alt="">
+        <div class="gnav">
+          <button class="header_menu_sp">
+            <span class="menu_lineTop"></span>
+            <span class="menu_lineMiddle"></span>
+            <span class="menu_lineBottom"></span>
+          </button>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Category</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#" class="contact_button_sp">お問い合わせ</a></li>
+          </ul>
+        </div>
+        <a href="#" class="contact_button_pc">お問い合わせ</a>
+      </div>
+      <div class="heading">
+        <div class="main">GlobeNest で<br> スマートな家探しを</div>
+        <div class="main_sp"><span>GlobeNestで</span><br>スマートな<br>家探しを</div>
+        <p>
+          まだ見ぬあなたらしい生活の実現に向けて、世界中の様々な家をご用意しております。<br>
+          <span>早速、検索フォームに条件を入れて住まい探しを始めましょう。</span>
+        </p>
+      </div>
+      <div class="search">
+        <ul class="tab">
+          <li class="buy"><a href="#tab1" class="current">購入</a></li>
+          <li class="rent"><a href="#tab2">借りる</a></li>
+        </ul>
+        <div class="contents">
+          <div class="item" id="tab1">
+            <input name="prefectures" type="text" placeholder="都道府県を入力">
+            <input type="text" name="minimum_amount" placeholder="最低金額を入力">
+            <input type="text" name="maximum_amount" placeholder="最高金額を入力">
+            <input type="submit" value="検索" class="searchBtn"></form>
+          </div>
+          <div class="item" id="tab2">
+            <input name="prefectures" type="text" placeholder="都道府県を入力">
+            <input type="text" name="minimum_amount" placeholder="最低金額を入力">
+            <input type="text" name="maximum_amount" placeholder="最高金額を入力">
+            <input type="submit" value="検索" class="searchBtn"></form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="infoSec">
+      <div class="info">
+        <div class="contents">
+          <div class="label">新築、築浅物件多数</div>
+          <p>ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。</p>
+        </div>
+        <div class="contents">
+          <div class="label">明瞭な料金体系</div>
+          <p>ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。</p>
+        </div>
+        <div class="contents">
+          <div class="label">取扱物件数No.1</No></div>
+          <p>ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。</p>
+        </div>
+        <div class="contents">
+          <div class="label">契約までオンラインで可能</div>
+          <p>ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="valueSec">
+      <div class="value">
+        <ul class="fadeIn_img">
+          <li class="valueImg top"><img src="./Images/value.jpg" alt=""></li>
+          <li class="valueImg bottom"><img src="./Images/Rectangle 13.png" alt=""></li>
+        </ul>
+        <div class="contents">
+          <h2>Our Value</h2>
+          <div class="heading">面倒な家探しを<br>最高の体験に変える</div>
+          <div class="text">
+            <p>ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。</p>
+            <p>ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文<span>　</span>が入ります。ここに説明文が入ります。ここに説明文が入ります。</p>
+          </div>
+          <a href="#" class="more_button">もっと詳しく</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="recommendSec">
+      <div class="recommend">
+        <h2>Recommend</h2>
+        <div class="heading">
+          <div class="left">オススメ<span>の</span>賃貸物件（12/01更新）</div>
+          <a href="#" class="right">全てを見る</a>
+        </div>
+        <div class="contents">
+          <ul>
+            <li>
+              <div class="item_li item1">
+                <img src="./Images/recommend-01.jpg" alt="">
+                <div class="text">
+                  <div class="label">渋谷レジデンス</div>
+                  <p>ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。</p>
+                  <div class="text_bottom">
+                    <div class="price">¥ <span>80,000 〜</span></div>
+                    <a href="#">もっと詳しく　</a>
+                  </div>
+                </div>
+              </div>              
+            </li>
+            <li>
+              <div class="item_li item2">
+                <img src="./Images/recommend-02.jpg" alt="">
+                <div class="text">
+                  <div class="label">新宿三丁目マンション</div>
+                  <p>ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。</p>
+                  <div class="text_bottom">
+                    <div class="price">¥ <span>120,000 〜</span></div>
+                    <a href="#">もっと詳しく　</a>
+                  </div>                
+                </div>
+              </div>            
+            </li>
+            <li>
+              <div class="item_li item3">
+                <img src="./Images/recommend-03.jpg" alt="">
+                <div class="text">
+                  <div class="label">メゾン東池袋</div>
+                  <p>ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。</p>
+                  <div class="text_bottom">
+                    <div class="price">¥ <span>78,000 〜</span></div>
+                    <a href="#">もっと詳しく　</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="stepsSec">
+      <div class="steps">
+        <div class="heading">
+          <div class="left">３つのステップで簡単に<br>物件探しを開始できます</div>
+          <div class="center">ここにスマホ表示時のみ説明文が入ります。ここにスマホ表示時のみ説明文が入ります。ここにスマホ表示時のみ説明文が入ります。</div>
+          <a href="#" class="right">今すぐ始める</a>
+        </div>
+        <div class="contents">
+          <ul>
+            <li>
+              <div class="item1">
+                <div class="number">1</div>
+                <div class="label">まずは物件を検索</div>
+                <p class="steps_p_pc">ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。</p>
+                <p class="steps_p_sp">ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。</p>
+              </div>
+            </li>
+            <li>
+              <div class="item2">
+                <div class="number">2</div>
+                <div class="label">個人情報を入力</div>
+                <p class="steps_p_pc">ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。</p>
+                <p class="steps_p_sp">ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。</p>
+              </div>
+            </li>
+            <li>
+              <div class="item3">
+                <div class="number">3</div>
+                <div class="label">確認メール受信で完了</div>
+                <p class="steps_p_pc">ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。</p>
+                <p class="steps_p_sp">ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="reviewsSec">
+      <div class="reviews">
+        <div class="contents">
+          <div class="main">
+            <h2>User Reviews</h2>
+            <div class="heading">当社で物件を見つけられた方々のお声</div>
+            <div class="circle">
+              <div class="list pink"></div>
+              <div class="list blue"></div>
+              <div class="list green"></div>
+              <div class="list orange"><span>平均<br>4.7/5.0</span></div>
+            </div>
+            <p class="info_text">ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文<span>　</span>が入ります。ここに説明文が入ります。</p>
+            <a href="#" class="more_button">全てのレビューを見る</a>
+          </div>
+          <div class="item_li">
+            <ul>
+              <li>
+                <div class="item1">
+                  <div class="top">
+                    <div class="left">
+                      <div class="name">田中 真美</div>
+                      <div class="star"><img src="./Images/Group 50.png" alt=""></div>
+                    </div>
+                    <div class="icon"><span>M・T</span></div>
+                  </div>
+                  <p>ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。</p>
+                  <p class="p_sp">ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。</p>
+                </div>
+              </li>
+              <li>
+                <div class="item2">
+                  <div class="top">
+                    <div class="left">
+                      <div class="name">佐藤 健太</div>
+                      <div class="star"><img src="./Images/Group 50.png" alt=""></div>
+                    </div>
+                    <div class="icon"><span>K・S</span></div>
+                  </div>
+                  <p>ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。</p>
+                  <p class="p_sp">ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。</p>
+                </div>
+              </li>
+              <li>
+                <div class="item3">
+                  <div class="top">
+                    <div class="left">
+                      <div class="name">伊藤 紗枝</div>
+                      <div class="star"><img src="./Images/Group 50.png" alt=""></div>
+                    </div>
+                    <div class="icon"><span>S・I</span></div>
+                  </div>
+                  <p>ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。</p>
+                  <p class="p_sp">ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。ここに説明文が入ります。</p>
+                </div>
+              </li>
+            </ul>
+          </div>         
+          
+        </div>
+      </div>
+    </section>
+
+    <section class="mailSec">
+      <div class="mail">
+        <div class="main">最新の情報を受け取る</div>
+        <a href="#" class="entry">メルマガに登録する</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="contents">
+      <div class="item1">
+        <h1>
+          <img src="./Images/logo-br_s.png" alt="">
+        </h1>
+        <div class="sub">物件掲載数No.1の住まい探しサービス</div>
+      </div>
+      <div class="item2">
+        <div class="about">
+          <div class="label">About</div>
+          <ul>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Value</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+        <div class="category">
+          <div class="label">Category</div>
+          <ul>
+            <li><a href="#">Buy</a></li>
+            <li><a href="#">Rent</a></li>
+            <li><a href="#">Recommend</a></li>
+          </ul>
+        </div>
+        <div class="support">
+          <div class="label">Support</div>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Support Center</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="item3">
+        <div class="label">SNS</div>
+        <div class="icon">
+          <a href="#"><img src="./Images/facebook (1) 1.jpg" alt=""></a>
+          <a href="#"><img src="./Images/instagram (1) 1.jpg" alt=""></a>
+          <a href="#"><img src="./Images/twitter (1) 1.jpg" alt=""></a>
+        </div>
+      </div>
+    </div>
+    <p class="copyright">© All rights reserved | 2023</p>
+    
+  </footer>
+
+
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+ 
+</body>
+</html>
